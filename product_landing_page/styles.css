@@ -1,0 +1,196 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+body{
+    background-color: #eee;
+    font-family: Lato, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #eee;
+    margin-top: 0;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#header-img{
+    width: 300px;
+    align-self: center;
+    padding: 10px 10px 10px 20px;
+}
+
+#body-box{
+    margin: 20px 14%;
+    align-items: center;
+    padding: 5%;
+}
+
+#nav-bar ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
+
+.form{
+    display: block;
+    margin: 20px auto;
+}
+
+#email{
+    font-size: 15px;
+    width: 250px;
+    height: 30px;
+}
+
+#div-logo{
+    width: 50%;
+}
+
+#div-menu{
+    width: 50%;
+    min-width: 380px;
+}
+
+.button-style{
+    background-color: #f1c40f;
+    border: none;
+    width: 150px;
+    font-size: large;
+    font-weight: 600;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.button-style:hover{
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+#caracteristicas{
+    margin: 80px 0;
+}
+
+.caracteristicas{
+    display: flex;
+}
+
+.description{
+    line-height: 1rem;
+}
+
+.div-icon{
+    margin: 30px 70px 30px 30px;
+}
+
+.fa{
+    color: darkorange;
+}
+
+#div-video{
+    text-align: center;
+}
+
+#video{
+    margin: auto;
+    padding: auto;
+}
+
+#precos{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    gap: 20px;
+}
+
+.border{
+    border: 1px solid black;
+    width: 33.33%;
+    min-width: 220px;
+}
+
+.price-title{
+    margin: 0;
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+h3{
+    text-align: center;
+}
+
+ol{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+button{
+    margin: auto;
+    display: block;
+}
+
+footer{
+    background-color: #ddd;
+    display: flex;
+}
+
+#div-left{
+    width: 50%;
+}
+
+#div-right{
+    width: 50%;
+}
+
+#div-right ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.btn{
+    font-weight: 200;
+}
+
+.price-list{
+    line-height: 1.8;
+}
+
+.copyright{
+    text-align: end;
+    margin-right: 30px;
+    color: #444;
+}
+
+@media (max-width: 900px){
+    #precos{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .border{
+        min-width: 280px;
+    }
+
+}
